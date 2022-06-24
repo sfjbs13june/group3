@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Properties;
 
 @Controller
-@RequestMapping(value = "/user")
+@RequestMapping(value = "/patient")
 public class PatientController {
 
     @Autowired
